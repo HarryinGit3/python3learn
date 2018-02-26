@@ -1,15 +1,15 @@
 # 整数类型 浮点数没有太多区别
 a = 1
 b = 1.2e-5
-print(a,'\n',b)
+print(a, '\n', b)
 
 # 字符串 用""或者''都可以 \是转义字符  \\就是表示\
 print('I\'m ok')
 print('\\\n\\')
-print(r'\\\n\\') # 用r''表示所有的不使用转义字符
+print(r'\\\n\\')  # 用r''表示所有的不使用转义字符
 print('''line1
 line2
-line3''') # '''多行换行
+line3''')  # '''多行换行
 print(r'''hello,\n
 world''')
 
@@ -23,7 +23,7 @@ else:
 # 变量
 a = 123
 print(a)
-a ='ABC'
+a = 'ABC'
 print(a)
 
 a = 'ABC'
@@ -36,10 +36,10 @@ print('%2d-%02d' % (3, 1))
 print('%.2f' % 3.1415926)
 
 # list是一种数据类型，是列表，可以嵌套
-classmates =['yin','jiang','gao']
-classmates.append('Adam') # 添加到最后一个
+classmates = ['yin', 'jiang', 'gao']
+classmates.append('Adam')  # 添加到最后一个
 classmates.insert(1, 'Jack')
-classmates.pop() #删除最后一个
+classmates.pop()  # 删除最后一个
 classmates.pop(1)
 print(classmates[-1])
 
